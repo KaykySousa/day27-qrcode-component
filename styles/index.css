@@ -1,0 +1,53 @@
+.wrapper {
+	min-height: 100vh;
+	min-width: 100vw;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: #7b879d;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	padding: 16px;
+	border-radius: 16px;
+	max-width: 332px;
+}
+
+.qrcode-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2c7dfa;
+	width: 100%;
+	border-radius: 8px;
+	aspect-ratio: 1/1;
+}
+
+.qrcode {
+	width: 70%;
+}
+
+.description {
+	margin: 24px 0;
+}
+
+.description h1 {
+	color: #1f3251;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.description p {
+	margin-top: 16px;
+	color: #a3a3a3;
+	text-align: center;
+}
